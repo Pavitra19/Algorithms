@@ -5,7 +5,7 @@ function countdown(x) {
         console.log("done!");
         return;
     } else {
-        console.log(`${x}`);
+        console.log(`${x} ...`);
         countdown(x - 1);
     }
 }
