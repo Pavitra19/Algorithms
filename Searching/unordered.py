@@ -15,5 +15,5 @@ def find_item(item, item_list):
     return None
 
 
-print(find_item(87, items))
-print(find_item(250, items))
+print(find_item(87, items))  # In list
+print(find_item(250, items))  # Not in list
